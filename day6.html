@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .container{
+            border: 7px solid black;
+            height: 80vh;
+            width: 25%;
+            margin: auto;
+            border-radius: 20px;
+        }
+        .child1{
+            height: 12%;
+            background: green;
+            color:whitesmoke;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+        .child2{
+            border: 2px solid black;
+            height: 70%;
+            overflow: scroll;
+            scrollbar-width: none;
+        }
+        .h4{
+            font-size: 20px;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+        .right{ 
+             text-align: right;
+             padding: 12px;
+             background-color: darkseagreen;
+             width: 20%;
+             margin-left: auto; 
+           }
+    .date{
+        position: sticky;
+        top: 10px;
+        background-color: lightgray;
+        text-align: center;
+        width: 26%;
+        margin: auto;
+    }
+    .left{
+        text-align: left;
+        padding: 12px;
+        background-color: darkseagreen;
+        width: 20%;
+    }
+    img{
+        width: 45px;
+        height: 50px;
+        border-radius: 100%;
+        margin-top: 0px;
+        margin-right: 210px;
+        vertical-align: middle;
+    }
+    #el1{
+        font-size:large ;
+        margin-top: 0px;
+        margin-left:8px;
+    }
+    input{
+        border-radius: 1.5px;
+        margin-right: -50px;
+        margin-top: 0px;
+        height: 35px;
+        width: 280px;
+        text-align: center;
+        border-radius: 20px;
+        display: inline-block;
+    }
+     .voice{ 
+         border-radius: 100%; 
+         width: 33px; 
+         height: 33px; 
+        background-color: darkgreen;
+        display: inline-block; 
+        text-align: center;
+        margin-left: 60px; 
+         margin-top: 5px; 
+         font-size: 20px; 
+    }
+    .icon{
+      font-size: 20px;
+      color: gray;
+      display: inline-block;
+      }
+    /* #i1{ 
+        margin-bottom: 10px;
+        margin-right: 100px;
+     } */
+    
+        
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="child1">
+
+         <span class="font"><i class="fa-solid fa-arrow-left" id="el1"></i> </span>   
+         <span class="font"><img src="img1.jpg" alt=""> </span> 
+           <h4>Rahul</h4>  
+          <span class="font"><i class="fa-solid fa-video" id="el3"></i></span>  
+         <span class="font"><i class="fa-solid fa-phone" id="el4"></i> </span>  
+          <span class="font"><i class="fa-solid fa-ellipsis-vertical" id="el5"></i></span>
+        </div> 
+        <div class="child2">
+        <div class="left">left msg</div>
+        <div class="right"><span>right msg</span></div>
+        <div class="left">left msg</div>
+        <div class="right"><span>right msg</span></div>
+        <div class="date"><span class="mid">01-01-2025</span></div>
+        <div class="right"><span>right msg</span></div>
+        <div class="left">left msg</div>
+        <div class="right"><span>right msg</span></div>
+        <div class="left">left msg</div>
+        <div class="date"><span class="mid">02-01-2025</span></div>
+        <div class="left">left msg</div>
+        <div class="right"><span>right msg</span></div>
+        <div class="left">left msg</div>
+        <div class="right"><span>right msg</span></div>
+        <div class="date"><span class="mid">03-01-2025</span></div>
+        <div class="left">left msg</div>
+        <div class="right"><span>right msg</span></div>
+        <div class="left">left msg</div>
+        <div class="right"><span>right msg</span></div>
+        <div class="date"><span class="mid">04-01-2025</span></div>
+        <div class="left">left msg</div>
+        <div class="right"><span>right msg</span></div>
+        <div class="left">left msg</div>
+        <div class="right"><span>right msg</span></div>
+        <div class="date"><span class="mid">05-01-2025</span></div>
+        <div class="left">left msg</div>
+        <div class="right"><span>right msg</span></div>
+        <div class="left">left msg</div>
+        <div class="right"><span>right msg</span></div>
+        
+        
+     </div> 
+     <div class="child3">
+       <div><span><i class="fa-regular fa-face-smile" id="i1"></i><input type="text" id="" name="" placeholder="message"></span>
+       <!-- <span class="icon"><i class="fa-regular fa-face-smile" id="i1"></i></span> -->
+       <span class="icon"><i class="fa-solid fa-paperclip" id="i2"></i></span>
+       <span class="icon"><i class="fa-solid fa-indian-rupee-sign" id="i3"></i></span>
+       <span class="icon"><i class="fa-solid fa-camera" id="i4"></i></span>
+       <div class="voice">
+        <span><i class="fa-solid fa-microphone"></i>
+        </span>
+        </div>
+       </div>
+    </div>
+</body>
+</html>
